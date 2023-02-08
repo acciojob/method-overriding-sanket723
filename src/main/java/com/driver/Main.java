@@ -3,7 +3,7 @@ package com.driver;
 public class Main {
     //Task-1
     public static class A{
-        String meth(){
+        public String meth(){
             return "Invoking method from class A";
         }
     }
@@ -11,7 +11,7 @@ public class Main {
     //Task-2
     public static class B extends A{
         //Task-4
-        String meth(){
+        public String meth(){
             return "Method is overridden in Extended class B";
         }
     }
